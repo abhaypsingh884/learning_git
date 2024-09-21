@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../CSS HTML Javascript Projects/DOM projects"
+		}
+	],
+	"settings": {
+		"gitlens.views.tags.branches.layout": "list"
+	}
+}
