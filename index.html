@@ -3,9 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script  src="script.js" defer>      </script>
+    <title>Currency Converter</title>
 </head>
 <body>
+    <form action="action.php"   method="GET">
+        <label for="your_Currency"> Select your currency :</label>
+        <select name="your_Currency"    id="your_Currency"  required>
+            <option value="">Select Currency</option>
+             <option value="INR">INR</option>
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+      </select>
+      <label for="your_Quantity"> Select your quantity :</label>
+      <input type="number"  id="your_Quantity"   name="your_Quantity"  min="1"  max="10000"   required>
+    <input type="submit" name="btn" id="btn"  class="btn"  value="Convert" >
     
+    </form>
+    <div class="output">
+        <h2>Here is your converted currency :</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Currency</th>
+                    <th>Code</th>
+                    <th>Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+    </div>
 </body>
 </html>
+
+
+
+
+
+
+
